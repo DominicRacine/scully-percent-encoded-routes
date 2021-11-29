@@ -4,9 +4,10 @@ staticPort: 1668
 reloadPort: 2667
 hostName: localhost
 projectName: scully-routes-space
-homeFolder: /Users/dominicracine/Documents/learn/fullstack-Arch/scully/scully-routes-space
+homeFolder: >-
+  /Users/dominicracine/Documents/learn/fullstack-Arch/scully/scully-percent-encoded-routes
 distFolder: dist/scully-routes-space
 outDir: >-
-  /Users/dominicracine/Documents/learn/fullstack-Arch/scully/scully-routes-space/dist/static
+  /Users/dominicracine/Documents/learn/fullstack-Arch/scully/scully-percent-encoded-routes/dist/static
 handle404: ''
 allowErrorCollect: true

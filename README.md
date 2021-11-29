@@ -3,16 +3,23 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.11.
 
 This project was design to reproduce a bug related to routes containing spaces
-use with the scully SSG.
+used with the scully SSG.
 
 # Reproducing the problem
 
 Run `npm install`.
+
 Run `ng build`.
+
 Run `npx scully`.
 
 Now visit `http://localhost:1668/Page%201`.
+
+You should see that the page is not loading.
+
 Now visit `http://localhost:1668/Page2`.
+
+You should see that this page is loading.
 
 # General Setup
 
