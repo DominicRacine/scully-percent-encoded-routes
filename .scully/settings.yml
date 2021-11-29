@@ -1,0 +1,12 @@
+identifier: k9w1k2uar6d4rfh7
+appPort: 1864
+staticPort: 1668
+reloadPort: 2667
+hostName: localhost
+projectName: scully-routes-space
+homeFolder: /Users/dominicracine/Documents/learn/fullstack-Arch/scully/scully-routes-space
+distFolder: dist/scully-routes-space
+outDir: >-
+  /Users/dominicracine/Documents/learn/fullstack-Arch/scully/scully-routes-space/dist/static
+handle404: ''
+allowErrorCollect: true

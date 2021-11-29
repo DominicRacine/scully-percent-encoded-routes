@@ -1,0 +1,8 @@
+----------------------------------   To discover new routes in the angular app use "npm run scully -- --scanRoutes"----------------------------------Using stored unhandled routes!.
+
+
+
+handleUnknownRoute: "/Page2", 404:""
+handleUnknownRoute: "/Page2", 404:""
+handleUnknownRoute: "/Page2", 404:""
+handleUnknownRoute: "/Page%202", 404:""
