@@ -107,15 +107,13 @@ function dataPathPlugin(route: string, config = {}): Promise<HandledRoute[]> {
 
     return Promise.resolve([
         { "route": "/Page%201" },
-        { "route": "/Page%202" },
+        { "route": "/Page2" },
     ]);
 }
 
 const validator = async (conf: any) => [];
 registerPlugin('router', 'dataPaths', dataPathPlugin, validator);
 ```
-
-
 
 ## Development server
 
