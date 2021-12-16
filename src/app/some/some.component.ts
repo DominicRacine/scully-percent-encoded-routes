@@ -18,14 +18,16 @@ const DATA = [
   styleUrls: ['./some.component.css']
 })
 export class SomeComponent implements OnInit {
+  name?: string;
   content?: string;
 
   constructor(private route: ActivatedRoute) {}
 
   ngOnInit(): void {
     this.route.params.subscribe((params) => {
+      console.log("Angular Router params.name: ", params.name);
       this.content = DATA.find( data => data.name == params.name )?.content;
-      console.log(this.content);
+      this.name = DATA.find( data => data.name == params.name )?.name;
     });
   }
 
